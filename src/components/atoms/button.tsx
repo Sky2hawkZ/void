@@ -1,5 +1,5 @@
 import React from "react";
-import {CSSStyleSheet} from "../../../types";
+import {CSStyleSheet} from "../../../types";
 
 
 interface Styles {
@@ -9,7 +9,7 @@ interface Styles {
 }
 
 const Button = () => {
-    const styles: Styles = CSSStyleSheet.create({
+    const styles: Styles = CSStyleSheet.create({
         wrapper: {
             color: "red",
             fontSize: "2rem"
